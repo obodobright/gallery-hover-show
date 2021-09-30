@@ -1,0 +1,19 @@
+[{
+        "id": "1",
+        "title": "Machine learning Tutorial",
+        "decription": "This project focused on the basics of machine learning and algorithms, it exposed the students, on the importance of learning this new technology, as it will be the next big thing that is already happening in tech.",
+        "img": "image/project1.jpeg"
+    },
+    {
+        "id": "2",
+        "title": "Android projects with source code",
+        "decription": "This project is a code with me kind of project, as I help my students on the basic of Android builts and the source code beem=n sent, the source code is very much available .",
+        "img": "image/project2.jpeg"
+    },
+    {
+        "id": "3",
+        "title": "Cool Javascripts Projects for Beginers",
+        "decription": "Wawa, this is one of my biggest projects in the whole of my career as a software engineer. Javascript which is pretty my favourite langauage, got summarised in this project. Too great, it gave the students an overview of what JavaScript is capable of doing. ",
+        "img": "image/project3.png"
+    }
+]
