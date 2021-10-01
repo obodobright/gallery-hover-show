@@ -3,7 +3,7 @@ import styled from "styled-components";
 import GlobalButton from "./button";
 const Hero = () => {
   return (
-    <Container>
+    <Container id="heropage">
       <Wrapper>
         <Image />
         <Content>

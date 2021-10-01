@@ -4,7 +4,7 @@ import video from "./vid.mp4";
 
 const VideoPage = () => {
   return (
-    <Container>
+    <Container id="videopage">
       <WrapperVideo src={video} controls autoplay loop></WrapperVideo>
     </Container>
   );

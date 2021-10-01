@@ -5,7 +5,7 @@ const ServicePage = ({ title, decription, img }) => {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <Container>
+    <Container id="service">
       <Wrapper>
         <Image src={img} />
         <Content>
