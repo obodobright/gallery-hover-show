@@ -6,6 +6,7 @@ import Service from "./serviceMother";
 import VideoPage from "./videoPage";
 import Newsletter from "./newsletterPage";
 import SubFooter from "./subfooter";
+import Footer from "./footer";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
       <VideoPage />
       <Newsletter />
       <SubFooter />
+      <Footer />
     </Container>
   );
 };

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiPhoneFill } from "react-icons/ri";
-import Footer from "./footer";
 
 const SubFooter = () => {
   return (
@@ -27,7 +26,6 @@ const SubFooter = () => {
             <FaLinkedin />
           </Link>
         </ContactInfo>
-        <Footer />
       </Wrapper>
     </Container>
   );
