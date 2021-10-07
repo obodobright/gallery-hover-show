@@ -4,6 +4,7 @@ import logo from "../assest/logo2.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -14,9 +15,15 @@ const Footer = () => {
             <Logo src={logo} />
           </LogoContainer>
           <Navigation>
-            <Link>About Us</Link>
-            <Link>Menu</Link>
-            <Link>Contact</Link>
+            <Links to="about" smooth={true} spy={true} offset={50} duration={500} delay={1000}>
+              About Us
+            </Links>
+            <Links to="menu" smooth={true} spy={true} offset={50} duration={500} delay={1000}>
+              Menu
+            </Links>
+            <Links to="contact" smooth={true} spy={true} offset={50} duration={500} delay={1000}>
+              Contact
+            </Links>
           </Navigation>
           <Social>
             <FaFacebook style={{ margin: "0 20px" }} />
@@ -48,11 +55,17 @@ const Navigation = styled.div`
   justify-content: center;
   cursor: pointer;
 `;
-const Link = styled.div`
+const Links = styled(Link)`
   font-size: 20px;
   color: white;
   font-weight: bold;
   margin: 15px 20px;
+  text-decoration: none;
+
+  :hover {
+    opacity: 0.6;
+    color: white;
+  }
 `;
 const Logo = styled.img`
   width: 170px;

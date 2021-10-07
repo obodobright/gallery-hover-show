@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <ContactInfo>
           <RiTimeFill style={{ fontSize: "60px", padding: "6px 0", color: "#387546" }} />

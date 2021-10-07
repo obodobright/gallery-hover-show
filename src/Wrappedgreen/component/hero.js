@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import heroimg from "../assest/heroimg.png";
 import sideImg from "../assest/sideImg.png";
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 const Heropage = () => {
   return (
     <Container>
@@ -9,7 +11,9 @@ const Heropage = () => {
         <Content>
           <Title>Healthy & Fresh Food For You</Title>
           <Desc>Created for lovers of healthy delicious and non-obvious food.</Desc>
-          <Button>Check Menu</Button>
+          <Button>
+            Check Menu <AiOutlineArrowRight />
+          </Button>
         </Content>
         <ImageContainer>
           <ImageHolder>

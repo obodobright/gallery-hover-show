@@ -19,13 +19,14 @@ const Client = () => {
   return (
     <Container>
       <Wrapper>
-        <NavName> Good food = happy clients</NavName>
+        <NavName> Good food = happy clients </NavName>{" "}
         <ImageContainer>
+          {" "}
           {Images.map((img) => {
-            return <ClientImage id={img.id} src={img.img} />;
-          })}
-        </ImageContainer>
-      </Wrapper>
+            return <ClientImage key={img.id} src={img.img} />;
+          })}{" "}
+        </ImageContainer>{" "}
+      </Wrapper>{" "}
     </Container>
   );
 };

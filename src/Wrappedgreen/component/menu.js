@@ -3,7 +3,7 @@ import styled from "styled-components";
 import menuData from "./menuData.json";
 const Menu = () => {
   return (
-    <Container>
+    <Container id="menu">
       <Wrapper>
         <NavName>Menu</NavName>
         <MenuHead>Explore Our Best Food</MenuHead>

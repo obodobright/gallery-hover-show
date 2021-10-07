@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import contactImg from "../assest/contactimg.png";
-
+import { AiOutlineArrowRight } from "react-icons/ai";
 const Contact = () => {
   return (
-    <Container>
+    <Container id="about">
       <Wrapper>
         <ImageHolder>
           <ImageContainer>
@@ -18,7 +18,9 @@ const Contact = () => {
             We are not ordinary food truck. We create a place overflowing with positive energy that
             it expresses important to us values. Get to know them specifically.
           </Desc>
-          <Button>Learn More</Button>
+          <Button>
+            Learn More <AiOutlineArrowRight style={{ marginRight: "10px;" }} />
+          </Button>
         </Content>
       </Wrapper>
     </Container>
