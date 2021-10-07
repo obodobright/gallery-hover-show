@@ -21,6 +21,7 @@ const Title = styled.div`
   text-align: center;
   margin-bottom: 10px;
   color: #00008b;
+  position: relative;
 `;
 const Form = styled.div`
   width: 400px;

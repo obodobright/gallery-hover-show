@@ -36,7 +36,7 @@ const Header = ({ bg, cl, bbc }) => {
   return (
     <Container background={bg} color={cl}>
       <Wrapper>
-        <Logo onClick={scrollToBottom}>Bright</Logo>
+        <Logo onClick={scrollToBottom}>Sunday Kadiri</Logo>
         <Navigation>
           <Nav
             to="heropage"
@@ -159,7 +159,7 @@ const Nav = styled(Link)`
 `;
 
 const Logo = styled.div`
-  width: 200px;
+  width: 400px;
   padding: 10px;
   font-family: Cursive;
   font-size: 30px;

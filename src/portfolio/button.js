@@ -12,7 +12,7 @@ const GlobalButton = ({ text, bg, brd, cl, bdhover }) => {
 };
 export default GlobalButton;
 const Container = styled.div``;
-const Button = styled.div`
+const Button = styled.a`
   margin-top: 30px;
   width: 150px;
   height: 40px;
@@ -20,9 +20,9 @@ const Button = styled.div`
   outline: none;
   background: ${({ brg }) => (brg ? "white" : "transparent")};
   border: ${({ border }) => (border ? "none" : "1px dashed #00008b")};
-
+  text-decoration: none;
   border-radius: 5px;
-  color: inherit;
+  color: darkblue;
   font-weight: bold;
   transition: all 350ms;
   transform: scale(1);
@@ -31,13 +31,11 @@ const Button = styled.div`
   justify-content: center;
 
   :hover {
-    background: white;
-    color: #00008b;
-    border: none;
     transform: scale(1.05);
     font-weight: bold;
     background: ${({ brg }) => (brg ? "#00008b" : "transparent")};
     color: ${({ color }) => (color ? "white" : "#00008b")};
     border: ${({ borderH }) => (borderH ? "2px solid #00008b" : "white")};
+    cursor: pointer;
   }
 `;

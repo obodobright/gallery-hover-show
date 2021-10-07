@@ -6,7 +6,7 @@ import { RiPhoneFill } from "react-icons/ri";
 
 const SubFooter = () => {
   return (
-    <Container>
+    <Container id="Contact">
       <Wrapper>
         <Title className="title">Get In Touch</Title>
         <ContactInfo>

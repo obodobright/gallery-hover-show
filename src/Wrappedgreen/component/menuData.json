@@ -1,0 +1,22 @@
+[{
+        "id": "1",
+        "foodName": "Mighty Burger",
+        "foodDesc": "Served with fries and drinks",
+        "foodPrice": "8",
+        "foodImage": "/asset/mightyburger.png"
+    },
+    {
+        "id": "2",
+        "foodName": "Chickpae's salad",
+        "foodDesc": "Served with fries and drinks",
+        "foodPrice": "4",
+        "foodImage": "/asset/chickpaesalad.png"
+    },
+    {
+        "id": "3",
+        "foodName": "Chickpae's wrap",
+        "foodDesc": "Served with fries and drinks",
+        "foodPrice": "3",
+        "foodImage": "/asset/chickenwrap.png"
+    }
+]
